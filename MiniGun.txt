@@ -27,8 +27,22 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Ss From you orz",
+    Name = "Private Gui",
     Callback = function()
-        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/FE-BYPASI1234566/refs/heads/main/main%20(1).lua"))()
+        loadstring(game:HttpGet("https://paste.ee/r/WRzPD8LP/0"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "SadRc7Go",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/SadRC7/refs/heads/main/LuaMayGay.lua"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "project secret",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/TopSecret/refs/heads/main/Secret.lua"))()
     end    
 })
