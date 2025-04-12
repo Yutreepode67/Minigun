@@ -46,3 +46,10 @@ Tab:AddButton({
         loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/TopSecret/refs/heads/main/Secret.lua"))()
     end    
 })
+
+Tab:AddButton({
+    Name = "GoodRc7",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/GoodRC7/refs/heads/main/update.lua"))()
+    end    
+})
