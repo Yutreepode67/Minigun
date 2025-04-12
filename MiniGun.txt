@@ -32,10 +32,3 @@ Tab:AddButton({
         loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/FE-BYPASI1234566/refs/heads/main/main%20(1).lua"))()
     end    
 })
-
-Tab:AddButton({
-    Name = "Fe Bypass",
-    Callback = function()
-        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/FE-BYPASI1234566/refs/heads/main/main.lua"))()
-    end    
-})
