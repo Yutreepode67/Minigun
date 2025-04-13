@@ -124,3 +124,18 @@ Tab:AddButton({
         loadstring(Game:HttpGet("https://raw.githubusercontent.com/297x885xz/297x885xz/refs/heads/main/Pritave"))()
     end    
 })
+
+
+Tab:AddButton({
+    Name = "China Crasher",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Client-Replication-china-crasher-35060"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "p00lkidd",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastefy.app/LH5mdWwm/raw"))()
+    end    
+})
