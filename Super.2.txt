@@ -109,3 +109,18 @@ Tab:AddButton({
         loadstring(game:HttpGet("https://pastefy.app/bacyoSi3/raw"))()
     end    
 })
+
+
+Tab:AddButton({
+    Name = "Harkain script",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/297x885xz/297x885xz/refs/heads/main/README.md"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "Something by hark",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/297x885xz/297x885xz/refs/heads/main/Pritave"))()
+    end    
+})
