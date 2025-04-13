@@ -74,3 +74,17 @@ Tab:AddButton({
         loadstring(game:HttpGet("https://pastebin.com/raw/5w5yW4PP"))()
     end    
 })
+
+Tab:AddButton({
+    Name = "Red Sword Pickaxe",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Ks/refs/heads/main/Red%20Sword%20Pickaxe.txt"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "Stigma Converted",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Ks/refs/heads/main/Stigma%20Converted.txt"))()
+    end    
+})
