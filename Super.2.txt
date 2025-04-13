@@ -106,6 +106,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "SH00WKIDD exec",
     Callback = function()
-        loadstring(game:HttpGet("https://pastefy.app/Q1wxjOJl/raw"))()
+        loadstring(game:HttpGet("https://pastefy.app/bacyoSi3/raw"))()
+print("Now Fixed)
     end    
 })
