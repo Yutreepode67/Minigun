@@ -74,3 +74,10 @@ Tab:AddButton({
         loadstring(game:HttpGet("https://pastebin.com/raw/5w5yW4PP"))()
     end    
 })
+
+Tab:AddButton({
+    Name = "Topkek",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/5w5yW4PP"))()
+    end    
+})
