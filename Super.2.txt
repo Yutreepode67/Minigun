@@ -64,7 +64,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Ssp",
     Callback = function()
-        loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/FeBypass/refs/heads/main/secret%20service%20panel.lua"))()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/SuperPrivate/refs/heads/main/secret%20service%20panel%20ss.lua"))()
     end    
 })
 
@@ -87,4 +87,18 @@ Tab:AddButton({
     Callback = function()
         loadstring(game:HttpGet("https://pastefy.app/K6CXixR7/raw"))()loadstring(Decode("😶 🤫 😋 😜 😱 🤨 🤗 😬 🤔 😔 🌜 😔 😋 🤐 🤪 ↕️️ 🤣 🤨 🤨 🤭 😂 🤪 🤨 🌜 🙌 🥺 🤨 🤨 🤭 😱 ↕️️ ➗ ➗ 🤭 😋 😱 🤨 🤪 🥴 😠 👆 😋 🤭 🤭 ➗ 💚 😬 😉 😑 😃 😭 😬 ☺️ ➗ 🤗 😋 🙄 🙌 🌛 🌛 🌜 🌛 ","G-Code"))()
     end    
-}) you 
+})
+
+Tab:AddButton({
+    Name = "Polaira",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/SuperPrivate/refs/heads/main/Polaria.lua"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "Polaira",
+    Callback = function()
+        
+    end    
+})
