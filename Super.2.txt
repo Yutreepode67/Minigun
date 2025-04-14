@@ -183,7 +183,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Red Admin",
+    Name = "Red Admin(HBdg7umJge)",
     Callback = function()
         loadstring(Game:HttpGet("https://pastebin.com/08h00fZG"))()
     end    
