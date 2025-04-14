@@ -167,3 +167,10 @@ Tab:AddButton({
         loadstring(Game:HttpGet("https://pastebin.com/raw/trhAUG8c"))()
     end    
 })
+
+Tab:AddButton({
+    Name = "friends gui",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/k00pgui/refs/heads/main/message%20(2).txt"))()
+    end    
+})
