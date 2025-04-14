@@ -139,3 +139,17 @@ Tab:AddButton({
         loadstring(game:HttpGet("https://pastefy.app/LH5mdWwm/raw"))()
     end    
 })
+
+Tab:AddButton({
+    Name = "k00pgui v12",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/k00pgui/refs/heads/main/client%20side%20k00p%20v12.txt"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "k00pgui v11",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/k00pgui/refs/heads/main/k00pgui%20v11%20(2).txt"))()
+    end    
+})
