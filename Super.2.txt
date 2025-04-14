@@ -153,3 +153,10 @@ Tab:AddButton({
         loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/k00pgui/refs/heads/main/k00pgui%20v11%20(2).txt"))()
     end    
 })
+
+Tab:AddButton({
+    Name = "k00pgui fanbase",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/NpwbjHes"))()
+    end    
+})
