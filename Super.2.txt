@@ -69,9 +69,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Ssp",
+    Name = "Keyless Dex Mobile dark",
     Callback = function()
-        loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/SuperPrivate/refs/heads/main/secret%20service%20panel%20ss.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Artifacttx/YumeHub/refs/heads/main/Universal/DarkDex_Mobile"))()
     end    
 })
 
