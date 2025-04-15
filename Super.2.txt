@@ -69,9 +69,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Topk3k",
+    Name = "Print",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/c-1-23/c-1-23/refs/heads/main/T0PK3K%204.0"))()
+        Print('Skibidi')
     end    
 })
 
