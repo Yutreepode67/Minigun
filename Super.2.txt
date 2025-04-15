@@ -188,3 +188,10 @@ Tab:AddButton({
         loadstring(Game:HttpGet("https://pastebin.com/08h00fZG"))()
     end    
 })
+
+Tab:AddButton({
+    Name = "Music Gui",
+    Callback = function()
+        loadstring(Game:HttpGet("https://pastebin.com/raw/1Phq6YM0"))()
+    end    
+})
