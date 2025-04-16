@@ -164,7 +164,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "grab knife v2",
     Callback = function()
-        loadstring(Game:HttpGet("https://pastebin.com/raw/trhAUG8c"))()
+        loadstring(game:HttpGet("https://pastebin.com/raw/gPaDKZut"))()
     end    
 })
 
