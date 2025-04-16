@@ -220,6 +220,6 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Green Titan",
     Callback = function()
-        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/RC7-SCRIPTS/refs/heads/main/Green%20Titan.txt"))()
+        print('Nothing for now')
     end    
 })
