@@ -195,3 +195,31 @@ Tab:AddButton({
         loadstring(Game:HttpGet("https://pastebin.com/raw/1Phq6YM0"))()
     end    
 })
+
+Tab:AddButton({
+    Name = "Barricade Shotgun",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/RC7-SCRIPTS/refs/heads/main/Barricade%20Shotgun.txt"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "Demon Sychte",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/RC7-SCRIPTS/refs/heads/main/Giant%20Demon%20Scythe.txt"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "Golden Clock",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/RC7-SCRIPTS/refs/heads/main/Golden%20Clock.txt"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "Green Titan",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/RC7-SCRIPTS/refs/heads/main/Green%20Titan.txt"))()
+    end    
+})
