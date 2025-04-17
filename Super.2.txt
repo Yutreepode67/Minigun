@@ -223,3 +223,10 @@ Tab:AddButton({
         print('Nothing for now')
     end    
 })
+
+Tab:AddButton({
+    Name = "Yaazkidd Guiv1",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/moedlol/-yzk/refs/heads/main/Yaaz"))()
+    end    
+})
