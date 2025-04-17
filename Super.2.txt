@@ -218,9 +218,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Green Titan",
+    Name = "Gun Blade",
     Callback = function()
-        print('Nothing for now')
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/RC7-SCRIPTS/refs/heads/main/GunbladeScript.txt"))()
     end    
 })
 
