@@ -265,3 +265,17 @@ Tab:AddButton({
         loadstring(Game:HttpGet('https://pastebin.com/raw/AxciKAAg'))()
     end    
 })
+
+Tab:AddButton({
+    Name = "private gui by 005n5n77 v1.5",
+    Callback = function()
+        loadstring(Game:HttpGet("https://pastefy.app/qQ1FyEeF/raw"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "Private Gui By Cle0n",
+    Callback = function()
+        loadstring(Game:HttpGet("https://pastefy.app/doB7vrVL/raw"))()
+    end    
+})
