@@ -258,3 +258,10 @@ Tab:AddButton({
         loadstring(game:HttpGet("https://pastebin.com/raw/ERRk4rvM"))()
     end    
 })
+
+Tab:AddButton({
+    Name = "1X1X1X1 gui i found on internet",
+    Callback = function()
+        loadstring(Game:HttpGet('https://pastebin.com/raw/AxciKAAg'))()
+    end    
+})
