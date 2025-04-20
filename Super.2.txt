@@ -251,3 +251,10 @@ Tab:AddButton({
         loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/Jsjajs/refs/heads/main/1X1X1X1%20FE%20GUI.lua"))()
     end    
 })
+
+Tab:AddButton({
+    Name = "1X1X1X1 gui",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/ERRk4rvM"))()
+    end    
+})
