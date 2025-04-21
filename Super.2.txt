@@ -213,6 +213,6 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Part 3",
     Callback = function()
-        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Minigun/refs/heads/main/Super.2.txt"))()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Minigun/refs/heads/main/Super.3"))()
     end    
 })
