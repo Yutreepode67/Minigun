@@ -197,13 +197,6 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Barricade Shotgun",
-    Callback = function()
-        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/RC7-SCRIPTS/refs/heads/main/Barricade%20Shotgun.txt"))()
-    end    
-})
-
-Tab:AddButton({
     Name = "Demon Sychte",
     Callback = function()
         loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/RC7-SCRIPTS/refs/heads/main/Giant%20Demon%20Scythe.txt"))()
@@ -228,13 +221,6 @@ Tab:AddButton({
     Name = "Yaazkidd Guiv1",
     Callback = function()
         loadstring(Game:HttpGet("https://raw.githubusercontent.com/moedlol/-yzk/refs/heads/main/Yaaz"))()
-    end    
-})
-
-Tab:AddButton({
-    Name = "Fe Bypass",
-    Callback = function()
-        loadstring(Game:HttpGet("https://raw.githubusercontent.com/swanhtetm/swanhtetm/fd55429e7b472e9e797e6ffb51fc7e679f01a9a2/Fe_Bypass_By_Goodrc7.txt"))()
     end    
 })
 
