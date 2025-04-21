@@ -204,20 +204,6 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Golden Clock",
-    Callback = function()
-        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/RC7-SCRIPTS/refs/heads/main/Golden%20Clock.txt"))()
-    end    
-})
-
-Tab:AddButton({
-    Name = "Gun Blade",
-    Callback = function()
-        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/RC7-SCRIPTS/refs/heads/main/GunbladeScript.txt"))()
-    end    
-})
-
-Tab:AddButton({
     Name = "Yaazkidd Guiv1",
     Callback = function()
         loadstring(Game:HttpGet("https://raw.githubusercontent.com/moedlol/-yzk/refs/heads/main/Yaaz"))()
