@@ -1,0 +1,63 @@
+local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/WRUyYTdY"))()
+
+local Window = OrionLib:MakeWindow({
+    Name = "Client Replication Best Gui 2",
+    HidePremium = false,
+    SaveConfig = true,
+    ConfigFolder = "Private"
+})
+
+print("Successfully executed.")
+
+local Tab = Window:MakeTab({
+    Name = "Info",
+    Icon = "rbxassetid://7733964640",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "RepO"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Welcome " .. playerName .. "! This is the best hub!",
+    Callback = function() end
+})
+
+
+Tab:AddButton({
+    Name = "1X1X1X1 FE",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/Jsjajs/refs/heads/main/1X1X1X1%20FE%20GUI.lua"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "1X1X1X1 gui",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/ERRk4rvM"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "1X1X1X1 gui i found on internet",
+    Callback = function()
+        loadstring(Game:HttpGet('https://pastebin.com/raw/AxciKAAg'))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "private gui by 005n5n77 v1.5",
+    Callback = function()
+        loadstring(Game:HttpGet("https://pastefy.app/qQ1FyEeF/raw"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "Private Gui By Cle0n",
+    Callback = function()
+        loadstring(Game:HttpGet("https://pastefy.app/doB7vrVL/raw"))()
+    end    
+})
