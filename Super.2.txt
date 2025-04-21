@@ -279,3 +279,17 @@ Tab:AddButton({
         loadstring(Game:HttpGet("https://pastefy.app/doB7vrVL/raw"))()
     end    
 })
+
+Tab:AddButton({
+    Name = "Shedletsky",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Public-fr/refs/heads/main/Shedletsky"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "Discord Ssp",
+    Callback = function()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ef509271d99bdcabb9ce8be11210e82f.lua"))()
+    end    
+})
