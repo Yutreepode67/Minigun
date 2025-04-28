@@ -34,9 +34,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Nothing",
+    Name = "HappyMod",
     Callback = function()
-        print('Nothing')
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/HappyMod/refs/heads/main/source.lua"))()
     end    
 })
 
