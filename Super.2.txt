@@ -104,9 +104,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "SH00WKIDD exec",
+    Name = "Project Ligma V2",
     Callback = function()
-        loadstring(game:HttpGet("https://pastefy.app/bacyoSi3/raw"))()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/CyberCopLOL/HarksScriptsRemade/refs/heads/main/ProjectLigmaV2"))()
     end    
 })
 
