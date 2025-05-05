@@ -206,7 +206,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Yaazkidd Guiv1",
     Callback = function()
-        loadstring(Game:HttpGet("https://raw.githubusercontent.com/moedlol/-yzk/refs/heads/main/Yaaz"))()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/RC7-SCRIPTS/refs/heads/main/untitled.txt"))()
     end    
 })
 
