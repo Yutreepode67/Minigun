@@ -169,7 +169,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "friends gui",
+    Name = "k00pgui",
     Callback = function()
         loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/k00pgui/refs/heads/main/message%20(2).txt"))()
     end    
@@ -204,7 +204,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Yaazkidd Guiv1",
+    Name = "its somethin",
     Callback = function()
         loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/RC7-SCRIPTS/refs/heads/main/untitled.txt"))()
     end    
